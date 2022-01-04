@@ -45,6 +45,26 @@ public class NoteServiceTest {
     }
 
     @Test
+    public void updateTest() throws Exception {
+        // We know that the noteId "61d1ba0f72618f5a3c322bba" is present in DB.
+        Note toUpdate = noteService.getById("61d1ba0f72618f5a3c322bba");
+        toUpdate.setObservation("Test");
+        toUpdate.setDate("1022-11-05");
+        Note updated = noteService.update(toUpdate);
+        assertEquals("Test", updated.getObservation());
+        assertEquals("1022-11-05", updated.getDate());
+    }
+
+    @Test
+    public void updateWithExceptionTest() throws Exception {
+        // We know that the noteId "61d1ba0f72618f5a3c322bba" is present in DB.
+        Note toUpdate = noteService.getById("61d1ba0f72618f5a3c322bba");
+        toUpdate.setObservation("");
+        Exception exception = assertThrows(Exception.class, () -> noteService.update(toUpdate));
+        assertTrue(exception.getMessage().contains("observation=must not be blank"));
+    }
+
+    @Test
     public void getAllTest() {
         List<Note> notes = noteService.getAll();
         assertEquals(9, notes.size());

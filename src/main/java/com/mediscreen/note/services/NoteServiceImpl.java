@@ -1,5 +1,6 @@
 package com.mediscreen.note.services;
 
+import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -26,11 +27,12 @@ public class NoteServiceImpl implements NoteService {
     private NoteRepo noteRepo;
 
     @Autowired
-    private Validator validator; 
+    private Validator validator;
 
     @Override
     public Note create(Note note, Integer ownerID) throws Exception {
         note.setOwnerId(ownerID);
+        note.setDate(LocalDate.now().toString());
         Note created;
         Map<String, String> validationErrors = validate(note);
         if (validationErrors.size() > 0) {
@@ -39,6 +41,22 @@ public class NoteServiceImpl implements NoteService {
             created = noteRepo.save(note);
             log.info("Created {}", created);
             return created;
+        }
+    }
+
+    // If we "create" a Note with ID that is present in DB, the Note will be
+    // updated, the duplicate will not be created, this is why we can use
+    // <noteService.create> for updating the Notes.
+    @Override
+    public Note update(Note note) throws Exception {
+        Note updated;
+        Map<String, String> validationErrors = validate(note);
+        if (validationErrors.size() > 0) {
+            throw new Exception(validationErrors.toString());
+        } else {
+            updated = noteRepo.save(note);
+            log.info("Updated {}", updated);
+            return updated;
         }
     }
 

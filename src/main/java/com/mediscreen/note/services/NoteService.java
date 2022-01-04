@@ -7,6 +7,7 @@ import com.mediscreen.note.models.Note;
 
 public interface NoteService {
     public Note create(Note note, Integer ownerID) throws Exception;
+    public Note update(Note note) throws Exception;
     public Map<String, String> validate(Note note);
     public List<Note> getAll();
     public List<Note> getAllByOwnerId(Integer ownerID)throws Exception;
