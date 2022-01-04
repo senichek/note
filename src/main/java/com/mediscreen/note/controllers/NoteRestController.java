@@ -27,6 +27,11 @@ public class NoteRestController {
         return new ResponseEntity<>(noteService.getAllByOwnerId(id), HttpStatus.OK);
     }
 
+    @GetMapping(value = "/patHistory/note/{noteId}")
+    public ResponseEntity<Note> getNoteById(@PathVariable("noteId") String id) throws Exception {
+        return new ResponseEntity<>(noteService.getById(id), HttpStatus.OK);
+    }
+
     @PostMapping(value = "/patHistory/add/{userId}")
     public ResponseEntity<Note> createNote(@PathVariable("userId") Integer id, @RequestBody Note note) throws Exception {
         return new ResponseEntity<>(noteService.create(note, id), HttpStatus.OK);
