@@ -4,62 +4,202 @@
     "id": "61d1b70cb1f500126871bc4e",
     "ownerId": "1",
     "date": "2022-01-01",
-    "observation": "Patient states that they are 'feeling terrific' Weight at or below recommended level"
+    "observation": "Le patient déclare qu'il « se sent très bien »\nPoids égal ou inférieur au poids recommandé"
   },
   {
     "_class": "com.mediscreen.note.models.Note",
     "id": "61d1ba0f72618f5a3c322bba",
-    "ownerId": "2",
+    "ownerId": "1",
     "date": "2019-07-01",
-    "observation": "Patient states that they are feeling a great deal of stress at work Patient also complains that their hearing seems Abnormal as of late"
+    "observation": "Le patient déclare qu'il se sent fatigué pendant la journée\nIl se plaint également de douleurs musculaires \nTests de laboratoire indiquant une microalbumine élevée"
   },
   {
     "_class": "com.mediscreen.note.models.Note",
     "id": "61d1bbfcd75cf026294fc85e",
-    "ownerId": "2",
+    "ownerId": "1",
     "date": "2020-05-07",
-    "observation": "Patient states that they have had a Reaction to medication within last 3 months Patient also complains that their hearing continues to be problematic"
+    "observation": "Le patient déclare qu'il ne se sent pas si fatigué que ça\nFumeur, il a arrêté dans les 12 mois précédents \nTests de laboratoire indiquant que les anticorps sont élevés"
   },
   {
     "_class": "com.mediscreen.note.models.Note",
     "id": "61d1bc3ad75cf026294fc860",
-    "ownerId": "3",
+    "ownerId": "2",
     "date": "2022-01-01",
-    "observation": "Patient states that they are short term Smoker"
+    "observation": "Le patient déclare qu'il ressent beaucoup de stress au travail\nIl se plaint également que son audition est anormale dernièrement"
   },
   {
     "_class": "com.mediscreen.note.models.Note",
     "id": "61d1bcf1d75cf026294fc864",
-    "ownerId": "3",
+    "ownerId": "2",
     "date": "2022-01-02",
-    "observation": "Patient states that they quit within last year Patient also complains that of Abnormal breathing spells Lab reports Cholesterol LDL high"
+    "observation": "Le patient déclare avoir fait une réaction aux médicaments au cours des 3 derniers mois\nIl remarque également que son audition continue d'être anormale"
   },
   {
     "_class": "com.mediscreen.note.models.Note",
     "id": "61d1bcb6d75cf026294fc862",
-    "ownerId": "4",
+    "ownerId": "2",
     "date": "2022-01-01",
-    "observation": "Patient states that walking up stairs has become difficult Patient also complains that they are having shortness of breath Lab results indicate Antibodies present elevated Reaction to medication"
+    "observation": "Tests de laboratoire indiquant une microalbumine élevée"
   },
   {
     "_class": "com.mediscreen.note.models.Note",
     "id": "61d1bd5fd75cf026294fc866",
-    "ownerId": "4",
+    "ownerId": "2",
     "date": "2022-01-02",
-    "observation": "Patient states that they are experiencing back pain when seated for a long time"
+    "observation": "Le patient déclare que tout semble aller bien\nLe laboratoire rapporte que l'hémoglobine A1C dépasse le niveau recommandé\nLe patient déclare qu’il fume depuis longtemps"
   },
   {
     "_class": "com.mediscreen.note.models.Note",
     "id": "61d1bd8cd75cf026294fc869",
-    "ownerId": "4",
+    "ownerId": "3",
     "date": "2022-01-03",
-    "observation": "Patient states that they are a short term Smoker Hemoglobin A1C above recommended level"
+    "observation": "Le patient déclare qu'il fume depuis peu"
   },
   {
     "_class": "com.mediscreen.note.models.Note",
     "id": "61d1bdbbd75cf026294fc86c",
+    "ownerId": "3",
+    "date": "2022-01-04",
+    "observation": "Tests de laboratoire indiquant une microalbumine élevée"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b66f4f4405297b00360a",
+    "ownerId": "3",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il est fumeur et qu'il a cessé de fumer l'année dernière\nIl se plaint également de crises d’apnée respiratoire anormales\nTests de laboratoire indiquant un taux de cholestérol LDL élevé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b6f44f4405297b00360b",
+    "ownerId": "3",
+    "date": "2022-01-04",
+    "observation": "Tests de laboratoire indiquant un taux de cholestérol LDL élevé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b7714f4405297b003610",
     "ownerId": "4",
     "date": "2022-01-04",
-    "observation": "Patient states that Body Height, Body Weight, Cholesterol, Dizziness and Reaction"
+    "observation": "Le patient déclare qu'il lui est devenu difficile de monter les escaliers\nIl se plaint également d’être essoufflé\nTests de laboratoire indiquant que les anticorps sont élevés\nRéaction aux médicaments"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b7764f4405297b003611",
+    "ownerId": "4",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il a mal au dos lorsqu'il reste assis pendant longtemps"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b77c4f4405297b003612",
+    "ownerId": "4",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare avoir commencé à fumer depuis peu\nHémoglobine A1C supérieure au niveau recommandé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b8274f4405297b003618",
+    "ownerId": "5",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare avoir des douleurs au cou occasionnellement\nLe patient remarque également que certains aliments ont un goût différent\nRéaction apparente aux médicaments\nPoids corporel supérieur au poids recommandé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b82d4f4405297b003619",
+    "ownerId": "5",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare avoir eu plusieurs épisodes de vertige depuis la dernière visite.\nTaille incluse dans la fourchette concernée"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b8324f4405297b00361a",
+    "ownerId": "5",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il souffre encore de douleurs cervicales occasionnelles\nTests de laboratoire indiquant une microalbumine élevée\nFumeur, il a arrêté dans les 12 mois précédents"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b8384f4405297b00361b",
+    "ownerId": "5",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare avoir eu plusieurs épisodes de vertige depuis la dernière visite.\nTests de laboratoire indiquant que les anticorps sont élevés"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b8eb4f4405297b003621",
+    "ownerId": "6",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il se sent bien\nPoids corporel supérieur au poids recommandé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b8f04f4405297b003622",
+    "ownerId": "6",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il se sent bien"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b9564f4405297b003627",
+    "ownerId": "7",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il se réveille souvent avec une raideur articulaire\nIl se plaint également de difficultés pour s’endormir\nPoids corporel supérieur au poids recommandé\nTests de laboratoire indiquant un taux de cholestérol LDL élevé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5b9c74f4405297b003629",
+    "ownerId": "8",
+    "date": "2022-01-04",
+    "observation": "Les tests de laboratoire indiquent que les anticorps sont élevés\nHémoglobine A1C supérieure au niveau recommandé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5ba1a4f4405297b00362c",
+    "ownerId": "9",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare avoir de la difficulté à se concentrer sur ses devoirs scolaires\nHémoglobine A1C supérieure au niveau recommandé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5ba1f4f4405297b00362d",
+    "ownerId": "9",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il s’impatiente facilement en cas d’attente prolongée\nIl signale également que les produits du distributeur automatique ne sont pas bons\nTests de laboratoire signalant des taux anormaux de cellules sanguines"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5ba244f4405297b00362e",
+    "ownerId": "9",
+    "date": "2022-01-04",
+    "observation": "Le patient signale qu'il est facilement irrité par des broutilles\nIl déclare également que l'aspirateur des voisins fait trop de bruit\nTests de laboratoire indiquant que les anticorps sont élevés"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5bace4f4405297b003634",
+    "ownerId": "10",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il n'a aucun problème"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5bad34f4405297b003635",
+    "ownerId": "10",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il n'a aucun problème\nTaille incluse dans la fourchette concernée\nHémoglobine A1C supérieure au niveau recommandé"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5bad74f4405297b003636",
+    "ownerId": "10",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il n'a aucun problème\nPoids corporel supérieur au poids recommandé\nLe patient a signalé plusieurs épisodes de vertige depuis sa dernière visite"
+  },
+  {
+    "_class": "com.mediscreen.note.models.Note",
+    "id": "61d5badd4f4405297b003637",
+    "ownerId": "10",
+    "date": "2022-01-04",
+    "observation": "Le patient déclare qu'il n'a aucun problème\nTests de laboratoire indiquant une microalbumine élevée"
   }
 ]
