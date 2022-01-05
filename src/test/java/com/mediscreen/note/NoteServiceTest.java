@@ -83,13 +83,6 @@ public class NoteServiceTest {
     }
 
     @Test
-    public void getAllByOwnerIdWithExceptionTest() {
-        // User with id=125 does not exist.
-        Exception exception = assertThrows(Exception.class, () -> noteService.getAllByOwnerId(125));
-        assertTrue(exception.getMessage().contains("Nothing was found for patient id=125"));
-    }
-
-    @Test
     public void getByIdTest() throws Exception {
         // We know that the noteId "61d1b70cb1f500126871bc4e" is present in DB.
         Note result = noteService.getById("61d1b70cb1f500126871bc4e");

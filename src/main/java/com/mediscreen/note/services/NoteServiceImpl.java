@@ -67,12 +67,7 @@ public class NoteServiceImpl implements NoteService {
 
     @Override
     public List<Note> getAllByOwnerId(Integer ownerID) throws Exception {
-        List<Note> result = noteRepo.getByOwnerId(ownerID);
-        if (result.size() == 0) {
-            throw new Exception((String.format("Nothing was found for patient id=%s", ownerID)));
-        } else {
-            return result;
-        }
+        return noteRepo.getByOwnerId(ownerID);
     }
 
     @Override
