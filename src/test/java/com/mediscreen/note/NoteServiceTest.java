@@ -67,15 +67,15 @@ public class NoteServiceTest {
     @Test
     public void getAllTest() {
         List<Note> notes = noteService.getAll();
-        assertEquals(9, notes.size());
+        assertEquals(29, notes.size());
 
     }
 
     @Test
     public void getAllByOwnerIdTest() throws Exception {
-        // User with ID=4 has 4 notes.
+        // User with ID=4 has 3 notes.
         List<Note> result = noteService.getAllByOwnerId(4);
-        assertEquals(4, result.size());
+        assertEquals(3, result.size());
 
         result.forEach(r -> {
             assertEquals(4, r.getOwnerId());
